@@ -1,0 +1,17 @@
+# Mengabaikan semua file di dalam folder data (raw & processed)
+data/
+
+# Mengabaikan file konfigurasi lokal Python
+__pycache__/
+*.pyc
+
+# Mengabaikan file sistem
+.DS_Store
+Thumbs.db
+
+# Mengabaikan environment virtual jika kamu membuatnya
+venv/
+.env
+
+# Mengabaikan file checkpoint Jupyter Notebook
+.ipynb_checkpoints/
